@@ -1,0 +1,4 @@
+C:\work\SDSAppFinal\SDSAppFinal\bin\Debug\netcoreapp3.1\SDSAppFinal.exe
+C:\work\SDSAppFinal\SDSAppFinal\obj\Debug\netcoreapp3.1\SDSAppFinal.csprojAssemblyReference.cache
+C:\work\SDSAppFinal\SDSAppFinal\obj\Debug\netcoreapp3.1\SDSAppFinal.AssemblyInfoInputs.cache
+C:\work\SDSAppFinal\SDSAppFinal\obj\Debug\netcoreapp3.1\SDSAppFinal.AssemblyInfo.cs

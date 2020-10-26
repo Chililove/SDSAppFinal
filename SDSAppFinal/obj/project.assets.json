@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection/3.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Core.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Core.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Entity.dll": {}
+        }
+      },
+      "SDS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SDS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SDS.Core.dll": {}
+        }
+      },
+      "SDS.Infrastructure.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core.Entity": "1.0.0",
+          "SDS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SDS.Infrastructure.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SDS.Infrastructure.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/3.1.9": {
+      "sha512": "ORqfrAACcvTInie1oGola5uky344/PiNfgayTPuZWV4WnSfIQZJQm/ZLpGshJE3h7TqwYaYElGazK/yaM2bFLA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Core.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Core.Entity/Core.Entity.csproj",
+      "msbuildProject": "../Core.Entity/Core.Entity.csproj"
+    },
+    "SDS.Core/1.0.0": {
+      "type": "project",
+      "path": "../SDS.Core/SDS.Core.csproj",
+      "msbuildProject": "../SDS.Core/SDS.Core.csproj"
+    },
+    "SDS.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "path": "../SDS.Infrastructure.Data/SDS.Infrastructure.Data.csproj",
+      "msbuildProject": "../SDS.Infrastructure.Data/SDS.Infrastructure.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Core.Entity >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.9",
+      "SDS.Core >= 1.0.0",
+      "SDS.Infrastructure.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mega_\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj",
+      "projectName": "SDSAppFinal",
+      "projectPath": "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj",
+      "packagesPath": "C:\\Users\\mega_\\.nuget\\packages\\",
+      "outputPath": "C:\\work\\SDSAppFinal\\SDSAppFinal\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mega_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj": {
+              "projectPath": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj"
+            },
+            "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj": {
+              "projectPath": "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj"
+            },
+            "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

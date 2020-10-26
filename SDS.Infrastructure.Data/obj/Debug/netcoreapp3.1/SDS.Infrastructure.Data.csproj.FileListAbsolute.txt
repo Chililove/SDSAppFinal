@@ -1,0 +1,14 @@
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\SDS.Infrastructure.Data.deps.json
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\SDS.Infrastructure.Data.dll
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\SDS.Infrastructure.Data.pdb
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\Core.Entity.dll
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\SDS.Core.dll
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\Core.Entity.pdb
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\bin\Debug\netcoreapp3.1\SDS.Core.pdb
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.csprojAssemblyReference.cache
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.AssemblyInfo.cs
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.csproj.CopyComplete
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.dll
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.pdb
+C:\work\SDSAppFinal\SDS.Infrastructure.Data\obj\Debug\netcoreapp3.1\SDS.Infrastructure.Data.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+C:\work\SDSAppFinal\SDS.Core\bin\Debug\netcoreapp3.1\SDS.Core.deps.json
+C:\work\SDSAppFinal\SDS.Core\bin\Debug\netcoreapp3.1\SDS.Core.dll
+C:\work\SDSAppFinal\SDS.Core\bin\Debug\netcoreapp3.1\SDS.Core.pdb
+C:\work\SDSAppFinal\SDS.Core\bin\Debug\netcoreapp3.1\Core.Entity.dll
+C:\work\SDSAppFinal\SDS.Core\bin\Debug\netcoreapp3.1\Core.Entity.pdb
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.csprojAssemblyReference.cache
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.AssemblyInfoInputs.cache
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.AssemblyInfo.cs
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.csproj.CoreCompileInputs.cache
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.csproj.CopyComplete
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.dll
+C:\work\SDSAppFinal\SDS.Core\obj\Debug\netcoreapp3.1\SDS.Core.pdb

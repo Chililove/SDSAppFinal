@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pcgwo0QcYw720/inz98QJmr71JUewR1bDR4jjeLcZFxWKjT+LZYGGq8ovdKWu4qxgRDSouDqVP0ajbr2UHez9w==",
+  "success": true,
+  "projectFilePath": "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mega_\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\mega_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

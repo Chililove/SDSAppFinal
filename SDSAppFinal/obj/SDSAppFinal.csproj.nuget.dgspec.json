@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj": {}
+  },
+  "projects": {
+    "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj",
+        "projectName": "Core.Entity",
+        "projectPath": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj",
+        "packagesPath": "C:\\Users\\mega_\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\SDSAppFinal\\Core.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mega_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj",
+        "projectName": "SDS.Core",
+        "projectPath": "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj",
+        "packagesPath": "C:\\Users\\mega_\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\SDSAppFinal\\SDS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mega_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj",
+        "projectName": "SDS.Infrastructure.Data",
+        "projectPath": "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\mega_\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mega_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj"
+              },
+              "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj",
+        "projectName": "SDSAppFinal",
+        "projectPath": "C:\\work\\SDSAppFinal\\SDSAppFinal\\SDSAppFinal.csproj",
+        "packagesPath": "C:\\Users\\mega_\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\SDSAppFinal\\SDSAppFinal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mega_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\Core.Entity\\Core.Entity.csproj"
+              },
+              "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\SDS.Core\\SDS.Core.csproj"
+              },
+              "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\work\\SDSAppFinal\\SDS.Infrastructure.Data\\SDS.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
